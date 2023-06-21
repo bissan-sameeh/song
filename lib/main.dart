@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                           blurRadius: 10,
                         ),
                       ],
-                      color: Colors.grey[400],
+                      color: Colors.grey[350],
                       borderRadius: BorderRadius.circular(50),
                     ),
                     child: Icon(Icons.arrow_back, color: Colors.grey[600]),
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
                           blurRadius: 10,
                         ),
                       ],
-                      color: Colors.grey[400],
+                      color: Colors.grey[350],
                       borderRadius: BorderRadius.circular(50),
                     ),
                     child: Icon(
@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                     Slider(
                       value: 0.3,
                       onChanged: (value) {},
-                      activeColor: const Color(0xff6d7d8f),
+                      activeColor: Colors.blue[200],
                     ),
                   ],
                 ),
@@ -152,7 +152,7 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                       borderRadius: BorderRadius.circular(50),
-                      color: Colors.grey[400],
+                      color: Colors.grey[350],
                     ),
                     child: Icon(
                       Icons.fast_forward,
@@ -193,7 +193,7 @@ class MyApp extends StatelessWidget {
                             offset: Offset(10, 10),
                             blurRadius: 10)
                       ],
-                      color: Colors.grey[400],
+                      color: Colors.grey[350],
                       borderRadius: BorderRadius.circular(50),
                     ),
                     child: Icon(
